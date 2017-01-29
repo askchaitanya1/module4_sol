@@ -14,10 +14,10 @@
 (function (window) {
 	var byeSpeaker = {};
 	var speakWord = "Good Bye";
-	byespeaker.speak = function (name) {
-  	console.log(speakWord + " " + name);
+		byeSpeaker.speak = function (names) {
+		console.log(speakWord + " " + names);
 	}
-
+	
 	window.byeSpeaker = byeSpeaker;
 
 })(window);
